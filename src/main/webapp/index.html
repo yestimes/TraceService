@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Aroma Shop - Home</title>
+    <link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+    <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendors/skrollr.min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+    <script src="vendors/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/mail-script.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('header').load('header.html');
+            $('footer').load('footer.html');
+        })
+    </script>
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+    <!--jQuery load-->
+    </header>
+	<!--================ End Header Menu Area =================-->
+
+  <main class="site-main">
+
+    <!--================ Hero banner start =================-->
+    <section class="hero-banner">
+      <div class="container">
+        <div class="row no-gutters align-items-center pt-60px">
+          <div class="col-5 d-none d-sm-block">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="img/home/hero-banner.png" alt="">
+            </div>
+          </div>
+          <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+            <div class="hero-banner__content">
+              <h4>智慧解决方案</h4>
+              <h1>AI in everywhere</h1>
+              <p>使用 云验 快速轻松地在整个产品中部署 机器学习 解决方案</p>
+              <a class="button button-hero" href="#">马上了解</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ Hero banner start =================-->
+
+    <!--================ Hero Carousel start =================-->
+    <section class="section-margin mt-0">
+      <div class="owl-carousel owl-theme hero-carousel">
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide1.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>智慧验证码</h3>
+            <p>安全，尽在指尖一滑</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide2.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>农业诊断助手</h3>
+            <p>病虫害,一拍即知</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/home/hero-slide3.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>运营助手</h3>
+            <p>用户活跃度分析</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--================ Hero Carousel end =================-->
+
+    <!-- ================ trending product section start ================= -->
+    <section class="section-margin calc-60px">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>个人用户免费</p>
+          <h2><span class="section-intro__style">热门 产品</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product1.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>安全</p>
+                <h4 class="card-product__title"><a href="single-product.html">智慧验证码</a></h4>
+                <p class="card-product__price">$5.00/ 100per</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product2.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>农业</p>
+                <h4 class="card-product__title"><a href="single-product.html">农业诊断助手</a></h4>
+                <p class="card-product__price">$0.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/product/product3.png" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>运营</p>
+                <h4 class="card-product__title"><a href="single-product.html">用户活跃度分析</a></h4>
+                <p class="card-product__price">$15.00 / peer</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ================ trending product section end ================= -->
+
+
+    <!-- ================ offer section start ================= -->
+    <section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5">
+            <div class="offer__content text-center">
+              <h3>最高 50% 折扣</h3>
+              <h4>大客户或教育行业即享有</h4>
+              <p>可达3年的技术支持</p>
+              <a class="button button--active mt-3 mt-xl-4" href="#">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ offer section end ================= -->
+
+    <!-- ================ Best Selling item  carousel end ================= -->
+
+    <!-- ================ Blog section start ================= -->
+    <section class="blog">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>热门技术分享</p>
+          <h2>最新 <span class="section-intro__style">分享</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/blog/blog1.png" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">By admin</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 1314 条评论</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="single-blog.html">机器学习业务在构建DevOps的应用</a></h4>
+                <p>使用Python构建系统自动化运维工具，并且让Java配合Docker使用它</p>
+                <a class="card-blog__link" href="#">更多 <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/blog/blog2.png" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">By John YE</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 2 评论</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="single-blog.html">微服务在高并发下的Python应用</a></h4>
+                <p>构建具备扩缩能力、高效且有效的服务，在媒体网站上为用户推荐相关内容。</p>
+                <a class="card-blog__link" href="#">更多<i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/blog/blog3.png" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">By root</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 520 条评论</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="single-blog.html">分布式缓存在高CPU低IO业务中的应用</a></h4>
+                <p>Let one fifth i bring fly to divided face for bearing divide unto seed. Winged divided light Forth.</p>
+                <a class="card-blog__link" href="#">更多 <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ================ Blog section end ================= -->
+
+    <!-- ================ Subscribe section start ================= -->
+    <section class="subscribe-position">
+      <div class="container">
+        <div class="subscribe text-center">
+          <h3 class="subscribe__title">获取最新情况</h3>
+          <p>机器学习产品、深度学习研究、业务构建经验分享</p>
+          <div id="mc_embed_signup">
+            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe-form form-inline mt-5 pt-1">
+              <div class="form-group ml-sm-auto">
+                <input class="form-control mb-1" type="email" name="EMAIL" placeholder="您的邮箱地址" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '" >
+                <div class="info"></div>
+              </div>
+              <button class="button button-subscribe mr-auto mb-1" type="submit">马上订阅</button>
+              <div style="position: absolute; left: -5000px;">
+                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- ================ Subscribe section end ================= -->
+
+
+
+  </main>
+
+
+  <!--================ Start footer Area  =================-->
+	<footer class="footer">
+		<!--jQuery write-->
+	</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+
+</body>
+</html>
